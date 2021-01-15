@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>Counts the number of vowels within a string</title>
+    <style>
+      body{
+          background: url('https://images.wallpaperscraft.com/image/letter_pendant_alphabet_114265_1280x720.jpg');
+          background-color: black;
+      }
+          h1{
+              text-align: center;
+              margin-bottom: 40px;
+              margin-top:50px;
+              color: white;
+              font-size: 55px;
+          }
+          h2{
+              text-align: center;
+              margin-bottom: 40px;
+              margin-top:50px;
+              color: white;
+              font-size: 30px;
+          }
+        
+      p {      
+        font-size: 40px;
+        margin-top: 0px;
+        color:white;
+        border: 5px ridge white;
+        width:30%;
+        text-align: center;
+        margin-left: 35%;
+      }
+
+      button{
+        width: 180px;
+        height:50px;
+        margin-left: 43%;
+        font-size: 1.5em;
+        border-radius: 2% ridge white;
+        opacity: 0.8;
+
+      }
+      #container{
+        display:none;
+      }
+
+      </style>
+  </head>
+<body>
+  <h1>Welcome To My Vowel Counter App!!!!</h1>
+  <button id="my-btn" onclick="stringEnter()">Enter a string</button>
+  <div id="container">
+    <h2>Your String is:</h2>
+    <p id="statement"></p>
+    <h2>Number of Vowels In the string:</h2>
+    <p id="demo"></p>
+  </div>
+  
+  <script src="vowel.js"></script>
+</body>
+</html>
